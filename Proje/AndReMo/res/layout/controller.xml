@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/controlScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/mouse_screen" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/controlScreen"
+        android:background="#FFFFFF" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="Connected IP : "
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtConnectState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="dcs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/controlScreen"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:background="#000000" >
+
+        <ToggleButton
+            android:id="@+id/btnKeyboard"
+            android:contentDescription="@string/btnKeyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnRightClick"
+            android:layout_alignBottom="@+id/btnRightClick"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="46dp"
+            android:focusable="true" 
+          	android:focusableInTouchMode="true"
+            android:background="@drawable/keyboard" />
+
+        <ToggleButton
+            android:id="@+id/btnLeftClick"
+            android:contentDescription="@string/btnLeftClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_left" />
+
+        <ToggleButton
+            android:id="@+id/btnRightClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnLeftClick"
+            android:layout_alignBottom="@+id/btnLeftClick"
+            android:layout_marginLeft="23dp"
+            android:layout_toRightOf="@+id/btnLeftClick"
+            android:background="@drawable/button_right"
+            android:contentDescription="@string/btnRightClick" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnRightClick"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/btnRightClick"
+            android:text="|"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="33sp" />
+        
+        
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndReMo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnLeftClick">left</string>
+    <string name="btnRightClick">right</string>
+    <string name="btnKeyboard">keyb</string>
+    <string name="tvIp">iptv</string>
+
+</resources>

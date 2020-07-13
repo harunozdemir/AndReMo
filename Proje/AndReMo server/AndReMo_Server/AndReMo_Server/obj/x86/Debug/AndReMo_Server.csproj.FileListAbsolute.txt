@@ -1,0 +1,10 @@
+c:\users\harun\documents\visual studio 2010\Projects\AndReMo_Server\AndReMo_Server\bin\Debug\AndReMo_Server.exe
+c:\users\harun\documents\visual studio 2010\Projects\AndReMo_Server\AndReMo_Server\bin\Debug\AndReMo_Server.pdb
+c:\users\harun\documents\visual studio 2010\Projects\AndReMo_Server\AndReMo_Server\obj\x86\Debug\AndReMo_Server.Form1.resources
+c:\users\harun\documents\visual studio 2010\Projects\AndReMo_Server\AndReMo_Server\obj\x86\Debug\AndReMo_Server.Properties.Resources.resources
+c:\users\harun\documents\visual studio 2010\Projects\AndReMo_Server\AndReMo_Server\obj\x86\Debug\AndReMo_Server.csproj.GenerateResource.Cache
+c:\users\harun\documents\visual studio 2010\Projects\AndReMo_Server\AndReMo_Server\obj\x86\Debug\AndReMo_Server.exe
+c:\users\harun\documents\visual studio 2010\Projects\AndReMo_Server\AndReMo_Server\obj\x86\Debug\AndReMo_Server.pdb
+C:\Users\Harun\documents\visual studio 2010\Projects\AndReMo_Server\AndReMo_Server\obj\x86\Debug\AndReMo_Server.csprojResolveAssemblyReference.cache
+J:\Android\Eclipse\Yayinlanan projelerim\AndReMo\Proje\AndReMo server\AndReMo_Server\AndReMo_Server\obj\x86\Debug\AndReMo_Server.exe
+J:\Android\Eclipse\Yayinlanan projelerim\AndReMo\Proje\AndReMo server\AndReMo_Server\AndReMo_Server\obj\x86\Debug\AndReMo_Server.pdb
